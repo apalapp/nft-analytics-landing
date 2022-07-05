@@ -1,0 +1,143 @@
+@media only screen and (max-width: 730px) {
+    h2 {
+        font-size: 34px;
+        line-height: 42px;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    header {
+        margin: 20px 16px 56px;
+    }
+
+    .primary-button {
+        padding: 15px 8px;
+    }
+
+    .secondary-button {
+        padding: 18px 22px;
+        width: 100%;
+    }
+
+    .container {
+        margin: 5% auto;
+        width: 89%;
+    }
+
+    .top-content {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 45px;
+    }
+
+    .left-content {
+        width: 100%;
+        margin-bottom: 32px;
+    }
+
+    .left-content p {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+    .right-content {
+        width: 100%;
+    }
+
+    .comment-frame h6 {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .comment-frame p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .grid-background {
+        grid-area: 1 / 1 / 12 / 12;
+    }
+
+    .grid-child1 {
+        grid-area: 6 / 1 / 8 / 6;
+    }
+
+    .grid-child2 {
+        grid-area: 7 / 7 / 10 / 12;
+    }
+
+    .grid-child3 {
+        grid-area: 2 / 6 / 5 / 12;
+    }
+
+    .comment-frame img {
+        flex-shrink: 0;
+        width: 34px;
+        height: 34px;
+    }
+
+    .btm-content {
+        flex-wrap: wrap;
+    }
+
+    .btm-content img {
+        padding: 0;
+        width: 100px;
+        height: 25px;
+        margin-bottom: 16px;
+    }
+
+    .left-content ul li {
+        text-align: center;
+    }
+
+    .image {
+        min-height: 275px;
+    }
+
+    .form-paragraph {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .join {
+        padding: 16% 0;
+    }
+
+    .join-form {
+        width: 90%;
+    }
+
+    footer {
+        margin-top: 100px;
+    }
+
+    .footer-left, .footer-right, .footer-top {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer-left img {
+        margin-bottom: 22px;
+    }
+
+    .footer-nav {
+        width: 100%;
+    }
+
+    .social {
+        margin-top: 20px;
+    }
+
+    .footer-btm {
+        flex-direction: column-reverse;
+    }
+}
