@@ -9,6 +9,7 @@
 body {
     height: 100%;
     background-color: #1A1722;
+    font-family: 'Roboto';
 }
 
 h2 {
@@ -22,8 +23,8 @@ h2 {
 h3 {
     font-family: 'Space Mono', sans-serif;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 40px;
+    line-height: 50px;
     color: #FFFFFF;
     margin-bottom: 26px;
 }
@@ -72,7 +73,7 @@ button {
 }
 
 .container {
-    margin: 4% auto;
+    margin: 4% auto 135px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -80,7 +81,6 @@ button {
 }
 
 .container p {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.65);
@@ -150,9 +150,9 @@ button {
     border-radius: 10px;
     display: flex;
     padding: 3%;
-    font-family: 'Roboto';
     font-style: normal;
     letter-spacing: 0.02em;
+    backdrop-filter: blur(17px);
 }
 
 .comment {
@@ -206,6 +206,7 @@ button {
     border-radius: 47px;
     color: #29BAF9;
     width: 20%;
+    padding: 9px 30px;
     text-align: center;
     margin-bottom: 16px;
 }
@@ -231,7 +232,7 @@ button {
 }
 
 .join {
-    padding: 20% 25%;
+    padding: 15% 25%;
 }
 
 .join-paragraph {
@@ -267,6 +268,36 @@ button {
     background-color: #5A29C1;
     border: none;
     color: #FFFFFF;
+    margin: -1px 0;
+}
+
+.cloud-frame {
+    color: #131313;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.25);
+    border-radius: 127px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.grid-cloud1 {
+    grid-area: 6 / 1 / 7 / 4;
+}
+
+.grid-cloud2 {
+    grid-area: 9 / 4 / 10 / 7;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.grid-cloud3 {
+    grid-area: 3 / 8 / 4 / 11;
 }
 
 .waitlist {
@@ -274,10 +305,6 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start
-}
-
-.waitlist h3 {
-    font-size: 36px;
 }
 
 hr {
@@ -290,7 +317,6 @@ hr {
 }
 
 footer {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
     width: 90%;
@@ -326,12 +352,11 @@ footer span {
     display: flex;
     align-items: center;
     width: 30%;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
-.footer-right span {
-    vertical-align: bottom;
-    margin-right: 5px;
+.email svg {
+    margin-right: 7px;
 }
 
 .social, .footer-nav {
@@ -339,6 +364,7 @@ footer span {
     display: flex;
     align-items: center;
     justify-content: center;
+    /*margin-right: 10px;*/
 }
 
 .footer-nav {
@@ -357,7 +383,7 @@ footer span {
     margin: 8px;
 }
 
-.circle img {
+.circle svg {
     vertical-align: -webkit-baseline-middle;
 }
 

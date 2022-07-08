@@ -116,6 +116,16 @@
         width: 90%;
     }
 
+    .cloud-frame {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .grid-cloud2 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
     footer {
         margin-top: 100px;
     }
