@@ -9,7 +9,6 @@ const joinForm = document.querySelector('#join-form');
 const email = document.querySelector('#email');
 const submitBtn = document.querySelector('#btn-submit');
 
-
 function scrollToTarget(target) {
     target.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
 }
@@ -20,11 +19,19 @@ const buttons = [
     freeConsultationBtn,
 ];
 
-joinForm.addEventListener('submit', e => {
+joinForm.addEventListener("submit", (e) => {
     e.preventDefault();
-    console.log(email.value);
+    const data = new FormData(joinForm);
+    const action = e.target.action;
+    fetch(action, {
+        method: 'POST',
+        body: data,
+    })
+        .then(() => {
+            alert("Success!");
+        })
     email.value = '';
-})
+});
 
 anchorContacts.addEventListener('click', (e) => {
     e.preventDefault();

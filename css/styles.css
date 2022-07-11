@@ -321,7 +321,6 @@ footer {
     font-weight: 300;
     width: 90%;
     margin: 170px auto 20px;
-
 }
 
 footer span {
@@ -364,7 +363,6 @@ footer span {
     display: flex;
     align-items: center;
     justify-content: center;
-    /*margin-right: 10px;*/
 }
 
 .footer-nav {
