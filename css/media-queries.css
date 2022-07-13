@@ -15,6 +15,17 @@
         margin: 20px 16px 56px;
     }
 
+    .blue-cloud1 {
+        left: 34%;
+        top: 3%
+    }
+
+    .blue-cloud4 {
+        position: absolute;
+        left: 30%;
+        top: 85%;
+    }
+
     .primary-button {
         padding: 15px 8px;
     }
@@ -58,8 +69,14 @@
     }
 
     .comment-frame p {
-        font-size: 10px;
-        line-height: 12px;
+        font-size: 9px;
+        line-height: 11px;
+    }
+
+    .comment-frame img {
+        flex-shrink: 0;
+        width: 34px;
+        height: 34px;
     }
 
     .grid-background {
@@ -78,12 +95,6 @@
         grid-area: 2 / 6 / 5 / 12;
     }
 
-    .comment-frame img {
-        flex-shrink: 0;
-        width: 34px;
-        height: 34px;
-    }
-
     .btm-content {
         flex-wrap: wrap;
     }
@@ -93,6 +104,10 @@
         width: 100px;
         height: 25px;
         margin-bottom: 16px;
+    }
+
+    .soon {
+        margin: 16px auto;
     }
 
     .left-content ul li {

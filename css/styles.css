@@ -10,6 +10,8 @@ body {
     height: 100%;
     background-color: #1A1722;
     font-family: 'Roboto';
+    position: relative;
+    overflow-x: clip;
 }
 
 h2 {
@@ -40,7 +42,7 @@ a:hover {
 }
 
 header {
-    margin: 22px 190px 50px;
+    margin: 35px 190px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -70,6 +72,39 @@ button {
     border-radius: 3px;
     line-height: 24px;
     padding: 20px 40px;
+}
+
+.blue-cloud {
+    width: 255px;
+    height: 255px;
+    border-radius: 50%;
+    background: #29BAF9;
+    opacity: 0.14;
+    filter: blur(114px);
+}
+
+.blue-cloud1 {
+    position: absolute;
+    left: 40%;
+    top: 11%;
+}
+
+.blue-cloud2 {
+    position: absolute;
+    left: 8%;
+    top: 21%;
+}
+
+.blue-cloud3 {
+    position: absolute;
+    left: 32%;
+    top: 54%;
+}
+
+.blue-cloud4 {
+    position: absolute;
+    left: 67%;
+    top: 78%;
 }
 
 .container {
@@ -175,9 +210,10 @@ button {
 
 .comment-frame p {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 16px;
     color: #E1E1E1;
+    padding-right: 3px;
 }
 
 .btm-content {
@@ -205,7 +241,7 @@ button {
     border: 2px solid #29BAF9;
     border-radius: 47px;
     color: #29BAF9;
-    width: 20%;
+    width: 105px;
     padding: 9px 30px;
     text-align: center;
     margin-bottom: 16px;
@@ -236,8 +272,8 @@ button {
 }
 
 .join-paragraph {
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 20px;
+    line-height: 26px;
     text-align: center;
     margin-bottom: 24px;
 }
@@ -257,6 +293,7 @@ button {
     padding: 3%;
     width: 80%;
     box-sizing: border-box;
+    font-size: 20px;
 }
 
 .join-form input:focus-visible {
@@ -269,6 +306,10 @@ button {
     border: none;
     color: #FFFFFF;
     margin: -1px 0;
+}
+
+.join-form button svg {
+    margin-top: 2px;
 }
 
 .cloud-frame {
@@ -292,8 +333,8 @@ button {
 
 .grid-cloud2 {
     grid-area: 9 / 4 / 10 / 7;
-    font-size: 21px;
-    line-height: 25px;
+    font-size: 16px;
+    line-height: 18px;
 }
 
 .grid-cloud3 {
@@ -320,7 +361,7 @@ footer {
     font-style: normal;
     font-weight: 300;
     width: 90%;
-    margin: 170px auto 20px;
+    margin: 160px auto;
 }
 
 footer span {
@@ -330,7 +371,7 @@ footer span {
 .footer-top {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .footer-left {
@@ -350,8 +391,8 @@ footer span {
 .footer-right {
     display: flex;
     align-items: center;
-    width: 30%;
-    justify-content: flex-end;
+    width: 22%;
+    justify-content: space-between;
 }
 
 .email svg {
@@ -379,10 +420,9 @@ footer span {
     width: 33px;
     height: 33px;
     margin: 8px;
-}
-
-.circle svg {
-    vertical-align: -webkit-baseline-middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-btm {
